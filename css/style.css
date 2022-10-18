@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+body{
+    background-image: url('https://wallpaperaccess.com/full/1236639.png');
+    background-repeat:  no-repeat;
+    background-size: 100%;
+}
+
+.container{
+    position: relative;
+}
+    
+.right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.right button{
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: unset;
+    box-shadow: 0 0 3px 3px #333;
+    transition: calc(.3);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: rgba(255, 22, 42, 0.333);
+    outline: none;
+    
+}
+button:hover{
+    opacity: .8;
+
+}
+
+
+.user{
+    max-width: 250px;
+    margin: 10vw auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 3px 3px 3px 0px rgb(230, 171, 113);
+    display: none;
+    position: relative;
+}
+p{
+    width: 100%;
+    height: 30px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+}
+.icon{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 5px;
+    right: 2px;
+    color: #fff;
+    cursor: pointer;
+}
+input{
+    line-height: normal;
+    height: 30px;
+    border: unset;
+    outline: none;
+}
+.user-info{
+   padding: 20px;
+   display: flex;
+   flex-direction: column;
+   
+}
+.btn-save-close{
+    display: flex;
+    padding: 25px 0 10px 150px;   
+}
+.btn-save-close button{
+    
+    width: 60px;
+    height: 20px;
+    margin: 0 5px;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+    border: unset;
+    border-radius: 5px;
+    font-size: 14px;
+    box-shadow:  0 0 3px 3px rgba(0, 0, 0, 0.2);
+    
+}
+.login{
+    max-width: 250px;
+    display: flex;
+    margin: 10vw auto;
+    background-color: #fff;
+    flex-direction: column;
+    box-shadow: 3px 3px 3px 0px rgb(230, 171, 113);
+    display: none;
+    position: relative;
+}
+.main{
+    max-width: 400px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    text-underline-offset: none;
+    cursor: pointer;   
+}
+.main-myinfo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    
+}
+.main img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100rem;
+    padding: 5px;
+    margin: 5px 0 5px 5px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.main .name{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    padding: 5px;
+    margin: 5px 5px 5px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    border-collapse: collapse;
+    font-size: 20px;
+    background-color: rgb(23, 177, 228);
+    color: #fff;
+    display: none;
+}
+.setting{
+    width: 200px;
+    position: absolute;
+    top: 53px;
+    right: 10px;
+    display: none;
+    
+}
+
+.setting p {
+   
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.2);
+
+}
+.setting p:hover {
+    opacity: .8;
+    border-bottom: 1px solid #fff;
+}
